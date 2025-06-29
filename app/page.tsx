@@ -591,7 +591,7 @@ export default function Home() {
                     className="w-full border-purple-200 hover:bg-purple-50 hover:border-purple-300 bg-transparent"
                     asChild
                   >
-                    <Link href="/resume/Kiran_Sadanand_Rai_Resume.pdf" download="Kiran_Sadanand_Rai_Resume.pdf">
+                    <Link href="/Kiran_Sadanand_Rai_Resume.pdf" download="Kiran_Sadanand_Rai_Resume.pdf">
                       Download Resume
                     </Link>
                   </Button>

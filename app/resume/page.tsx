@@ -22,7 +22,7 @@ export default function ResumePage() {
               </Link>
             </Button>
             <Link
-              href="/resume/Kiran_Sadanand_Rai_Resume.pdf"
+              href="/Kiran_Sadanand_Rai_Resume.pdf"
               download="Kiran_Sadanand_Rai_Resume.pdf"
               className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg h-10 px-4 py-2"
             >
