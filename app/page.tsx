@@ -577,11 +577,11 @@ export default function Home() {
                       <Github className="h-4 w-4 text-white" />
                     </div>
                     <Link
-                      href="https://github.com/kiran-rai"
+                      href="https://github.com/kiranrai"
                       className="hover:underline hover:text-purple-600 transition-colors"
                       target="_blank"
                     >
-                      github.com/kiran-rai
+                      github.com/kiranrai
                     </Link>
                   </div>
                 </CardContent>
@@ -591,7 +591,7 @@ export default function Home() {
                     className="w-full border-purple-200 hover:bg-purple-50 hover:border-purple-300 bg-transparent"
                     asChild
                   >
-                    <Link href="/resume" download>
+                    <Link href="/resume/Kiran_Sadanand_Rai_Resume.pdf" download="Kiran_Sadanand_Rai_Resume.pdf">
                       Download Resume
                     </Link>
                   </Button>
@@ -609,7 +609,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/kiran-rai"
+              href="https://github.com/kiranrai"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-110 transition-transform"
