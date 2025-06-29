@@ -577,11 +577,11 @@ export default function Home() {
                       <Github className="h-4 w-4 text-white" />
                     </div>
                     <Link
-                      href="https://github.com/kiranrai"
+                      href="https://github.com/kiran-rai"
                       className="hover:underline hover:text-purple-600 transition-colors"
                       target="_blank"
                     >
-                      github.com/kiranrai
+                      github.com/kiran-rai
                     </Link>
                   </div>
                 </CardContent>
@@ -609,7 +609,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/kiranrai"
+              href="https://github.com/kiran-rai"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-110 transition-transform"
