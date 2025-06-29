@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowLeft, Download, Mail, Phone, MapPin, GraduationCap, Award, Briefcase } from "lucide-react"
 
@@ -5,6 +6,12 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
+
+export const metadata: Metadata = {
+  title: "Resume - Kiran Rai | Data Analyst",
+  description:
+    "Download the resume of Kiran Sadanand Rai, Microsoft-certified Data Analyst with expertise in Power BI, SQL, and healthcare analytics.",
+}
 
 export default function ResumePage() {
   return (
@@ -52,6 +59,14 @@ export default function ResumePage() {
                 <span>571 574 3237</span>
               </div>
             </div>
+            <Link
+              href="/Kiran_Sadanand_Rai_Resume.pdf"
+              download="Kiran_Sadanand_Rai_Resume.pdf"
+              className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-lg h-10 px-4 py-2"
+            >
+              <Download className="mr-2 h-4 w-4" />
+              Download PDF
+            </Link>
           </div>
 
           {/* Summary */}

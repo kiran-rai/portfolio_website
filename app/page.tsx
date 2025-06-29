@@ -68,7 +68,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Driving product and policy decisions through data. Specialized in healthcare and government analytics
+                Driving product and policy decisions through data. Specialized in healthcare and customer analytics
                 with expertise in SQL, Power BI, and experimentation.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
