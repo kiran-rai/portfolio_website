@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kiran Sadanand Rai - Data Analyst Portfolio",
+  title: "Kiran Rai - Data Analyst Portfolio",
   description:
     "Microsoft-certified Data Analyst with 3+ years of experience driving product and policy decisions through data. Specialized in healthcare and government analytics with expertise in SQL, Power BI, and experimentation.",
   keywords: [
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Kiran Sadanand Rai" }],
   creator: "Kiran Sadanand Rai",
   openGraph: {
-    title: "Kiran Sadanand Rai - Data Analyst Portfolio",
+    title: "Kiran Rai - Data Analyst Portfolio",
     description: "Microsoft-certified Data Analyst specializing in healthcare and government analytics",
     url: "https://https://portfolio-website-lac-pi.vercel.app/",
-    siteName: "Kiran Sadanand Rai Portfolio",
+    siteName: "Kiran Rai Portfolio",
     type: "website",
   },
   twitter: {
