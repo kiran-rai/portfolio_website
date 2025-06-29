@@ -1,9 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Suspense } from "next/navigation"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -24,15 +21,15 @@ export const metadata: Metadata = {
   authors: [{ name: "Kiran Sadanand Rai" }],
   creator: "Kiran Sadanand Rai",
   openGraph: {
-    title: "Kiran Sadanand Rai - Data Analyst Portfolio",
+    title: "Kiran Rai - Data Analyst Portfolio",
     description: "Microsoft-certified Data Analyst specializing in healthcare and government analytics",
-    url: "https://your-portfolio-url.vercel.app",
-    siteName: "Kiran Sadanand Rai Portfolio",
+    url: "https://kiran-rai-portfolio.vercel.app/",
+    siteName: "Kiran Rai Portfolio",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kiran Sadanand Rai - Data Analyst Portfolio",
+    title: "Kiran Rai - Data Analyst Portfolio",
     description: "Microsoft-certified Data Analyst specializing in healthcare and government analytics",
   },
   robots: {
@@ -48,13 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Suspense fallback={<div>Loading...</div>}>
-          {children}
-          <Analytics />
-          <SpeedInsights />
-        </Suspense>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
