@@ -68,8 +68,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Driving product and policy decisions through data. Specialized in healthcare and customer analytics
-                with expertise in SQL, Power BI, and experimentation.
+                I turn data into strategic insight. With a focus on healthcare and customer analytics, 
+                I specialize in SQL, Power BI, and designing experiments that drive smarter decisions.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-4 text-muted-foreground">
                 <MapPin className="h-4 w-4 text-purple-600" />
-                <span className="text-sm">Fairfax, Virginia • Available for remote work</span>
+                <span className="text-sm">United States • Available for remote work</span>
               </div>
             </div>
             <div className="flex items-center justify-center">
@@ -130,14 +130,14 @@ export default function Home() {
             </h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
               I'm a Microsoft-certified Data Analyst with 3+ years of experience driving product and policy decisions
-              through data. I've delivered reporting solutions used by 10+ stakeholders across healthcare and government
+              through data. I've delivered reporting solutions used by stakeholders across healthcare and government
               sectors, automated dashboards that significantly cut analysis time, and informed feature strategies that
               improved onboarding conversion rates.
             </p>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
               With an MS in Data Analytics Engineering from George Mason University and a BE in Electronics Engineering
               from University of Mumbai, I combine technical expertise with strong business acumen. I'm proficient in
-              SQL, Power BI, Python, and experimentation, with a proven ability to align data insights with business
+              SQL, Power BI, and Python, with a proven ability to align data insights with business
               outcomes.
             </p>
           </div>
