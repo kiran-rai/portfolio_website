@@ -1,12 +1,13 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kiran Sadanand Rai - Data Analyst Portfolio",
+  title: "Kiran Rai - Data Analyst Portfolio",
   description:
     "Microsoft-certified Data Analyst with 3+ years of experience driving product and policy decisions through data. Specialized in healthcare and government analytics with expertise in SQL, Power BI, and experimentation.",
   keywords: [
@@ -45,6 +46,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JLGME7XD50" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JLGME7XD50');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
